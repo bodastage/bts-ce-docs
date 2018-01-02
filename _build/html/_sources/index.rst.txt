@@ -3,15 +3,34 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Boda Telecom Suite - CE's documentation!
+Welcome to Boda Telecom Suite - CE
 ===================================================
+Release v1.0.0
 
+.. include:: about.rst
+
+.. note:: There are a number of topics that aren't written yet but we continuously updating the documentation. Issues with the documentation should be reported at https://github.com/bodastage/bts-ce-docs/issues
+          
+		  
+Guide
+=====
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   intro
+   installation
+   resources
+   license
+   architecture
+   modules
+   api
+   database
+   mediation
+   integration
+   faq
+   api_reference
 
-
+   
 Indices and tables
 ==================
 
