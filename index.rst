@@ -5,7 +5,6 @@
 
 Welcome to Boda Telecom Suite - CE
 ===================================================
-Release v1.0.0
 
 .. include:: about.rst
 
