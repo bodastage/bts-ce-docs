@@ -8,7 +8,7 @@ Welcome to Boda Telecom Suite - CE
 
 .. include:: about.rst
 
-.. note:: There are a number of topics that aren't written yet but we continuously updating the documentation. Issues with the documentation should be reported at https://github.com/bodastage/bts-ce-docs/issues
+.. note:: There are a number of topics that aren't written yet but we are continuously updating the documentation. Issues related to the documentation should be reported at https://github.com/bodastage/bts-ce-docs/issues
           
 		  
 Guide

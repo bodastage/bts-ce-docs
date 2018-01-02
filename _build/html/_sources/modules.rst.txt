@@ -4,7 +4,6 @@ The different functionality is organised in modules. Each module performs a spec
 
 Below is a list of the modules currently avaiable:
 
-* User management
 * Network Browser
 * Network Baseline 
 * Network Audit
