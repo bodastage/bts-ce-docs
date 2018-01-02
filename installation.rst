@@ -1,6 +1,8 @@
 Installation
 ============================= 
-To simplify the installation and setup process we have leveraged the Docker project.
+To simplify the installation and setup process, the application is distributed in Docker containers. Docker is a way to distribute self-contained applications easily. We provide Docker images for the Community Edition that you can very easily install and upgrade on your PC, Laptops, or server. The docker hub repositories are located at https://hub.docker.com/u/bodastage/
+
+Follow the steps below to install the application:
 
 1. Download Docker Community Edition for your platform from https://www.docker.com/community-edition#/download. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.
 
