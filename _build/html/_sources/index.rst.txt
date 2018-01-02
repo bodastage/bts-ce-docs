@@ -5,7 +5,6 @@
 
 Welcome to Boda Telecom Suite - CE
 ===================================================
-Release v1.0.0
 
 .. include:: about.rst
 
@@ -29,11 +28,3 @@ Guide
    integration
    faq
    api_reference
-
-   
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
