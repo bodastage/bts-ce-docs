@@ -44,7 +44,42 @@
             
   <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<p>To simplify the installation and setup process, the application is distributed in Docker containers. Docker is a way to distribute self-contained applications easily. We provide Docker images for the Community Edition that you can very easily install and upgrade on your PC, Laptops, or server. The docker hub repositories are located at <a class="reference external" href="https://hub.docker.com/u/bodastage/">https://hub.docker.com/u/bodastage/</a></p>
+<p>The BTS-CE application is distributed in Docker containers to simplify the installation. Docker is a way to distribute self-contained applications easily. We provide Docker images for the Community Edition that you can very easily install and upgrade on your PC, Laptops, or server. The docker hub repositories are located at <a class="reference external" href="https://hub.docker.com/u/bodastage/">https://hub.docker.com/u/bodastage/</a></p>
+<p>Although this is the recommended installation method, you can still download the individual components from the Bodastage Solutions github page and install them as your see fit.</p>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>To run BTS-CE Docker containers, you will need:</p>
+<ul class="simple">
+<li>A 64 bit operating system. (Windows 10, Linux, MacOSX)</li>
+<li>Atleast 10 GB disk space</li>
+<li>Atleast 4 GB RAM</li>
+</ul>
+</div>
+<div class="section" id="windows">
+<h2>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Enable HyperV or Install Oracle VirtualBox</li>
+<li>Download and install Docker Community Edition for your platform from <a class="reference external" href="https://www.docker.com/community-edition#/download">https://www.docker.com/community-edition#/download</a>. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.</li>
+<li>Download the latest release files for BTS-CE from <a class="reference external" href="https://github.com/bodastage/bts-ce/releases">https://github.com/bodastage/bts-ce/releases</a></li>
+<li>Unzip the BTS-CE realease files. Open <strong>cmd</strong> as an Administrator and run <strong>manager.bat up -d</strong></li>
+</ol>
+<ol class="arabic simple" start="4">
+<li>Access the web client at localhost or &lt;docker-machine ip&gt; for Windows users</li>
+</ol>
+<div class="section" id="enable-hyperv-or-install-oracle-virtualbox">
+<h3>Enable HyperV or Install Oracle VirtualBox<a class="headerlink" href="#enable-hyperv-or-install-oracle-virtualbox" title="Permalink to this headline">¶</a></h3>
+<p>When installing Docker CE on Windows. You can either use HyperV or Oracle VirtualBox.  These are used to create virtual machines from which your containers will run.</p>
+<p>HyperV is an optional feature available on Windows 10 Enterprise, Professional, or Education. If you are using Windows 10 Home or any other windows release, you will need to upgrade or use Oracle VirtualBox.</p>
+<p>To enabled HyperV, follow the steps at <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v</a></p>
+<p>Download Oracle VirtualBox from <a class="reference external" href="https://www.virtualbox.org/">https://www.virtualbox.org/</a></p>
+</div>
+<div class="section" id="download-docker-community-edition">
+<h3>Download Docker Community Edition<a class="headerlink" href="#download-docker-community-edition" title="Permalink to this headline">¶</a></h3>
+<p>Docker community edition</p>
+</div>
+</div>
+<div class="section" id="lunix-and-macosx">
+<h2>Lunix and MacOSX<a class="headerlink" href="#lunix-and-macosx" title="Permalink to this headline">¶</a></h2>
 <p>Follow the steps below to install the application:</p>
 <ol class="arabic simple">
 <li>Download Docker Community Edition for your platform from <a class="reference external" href="https://www.docker.com/community-edition#/download">https://www.docker.com/community-edition#/download</a>. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.</li>
@@ -53,6 +88,7 @@
 <li>Run manage.sh start</li>
 <li>Access the web client at localhost or &lt;docker-machine ip&gt; for Windows users</li>
 </ol>
+</div>
 </div>
 
 
@@ -82,7 +118,12 @@
 <h3><a href="index.html">Table Of Contents</a></h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lunix-and-macosx">Lunix and MacOSX</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="architecture.html">Architecture</a></li>
