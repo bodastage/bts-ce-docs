@@ -17,9 +17,8 @@ Guide
    :maxdepth: 2
 
    intro
-   installation
+   installation	
    resources
-   license
    architecture
    modules
    api
@@ -28,3 +27,11 @@ Guide
    integration
    faq
    api_reference
+   roadmap
+   
+Appendix
+========
+.. toctree::
+   :maxdepth: 2
+   
+   license

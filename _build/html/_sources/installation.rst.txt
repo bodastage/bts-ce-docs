@@ -18,7 +18,7 @@ To run BTS-CE Docker containers, you will need:
 Windows  
 =======
 
-1. Enable HyperV or Install Oracle VirtualBox 
+1. Enable HyperV or install Oracle VirtualBox 
 
 2. Download and install Docker Community Edition for your platform from https://www.docker.com/community-edition#/download. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.
 
@@ -41,9 +41,6 @@ Download Oracle VirtualBox from https://www.virtualbox.org/
 
 .. Add note on which windows build versions are supported 
 
-Download Docker Community Edition
----------------------------------
-Docker community edition
 
 Lunix and MacOSX
 ================
