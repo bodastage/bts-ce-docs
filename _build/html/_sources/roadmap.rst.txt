@@ -6,13 +6,15 @@ We plan to cover the following areas:
 * Network Audit 
 * Network Writeback -- MML,XML
 * Optimization Workflows
-* Minimal Performance management
+* Automation of optimation Worflows (SON)
+* Performance management
+* Fault management
 * Fault management 
-* Automation of Worflows (SON)
 * Indoor planning
 * Outdoor planning
 * Transmission management 
-* Custom Experience Management
-* Service Assurance 
+* Customer Experience Management
 * Core network management
+* Service Assurance
 
+Those interested in contributing checkout our Bodastage github page at github.com/bodastage or send an email to info@bodastage.com

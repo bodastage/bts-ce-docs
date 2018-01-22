@@ -20,24 +20,44 @@ Windows
 
 1. Enable HyperV or install Oracle VirtualBox 
 
-2. Download and install Docker Community Edition for your platform from https://www.docker.com/community-edition#/download. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.
+2. Download and install Docker Community Edition rom https://www.docker.com/community-edition#/download.
 
 3. Download the latest release files for BTS-CE from https://github.com/bodastage/bts-ce/releases
 
 4. Unzip the BTS-CE realease files. Open **cmd** as an Administrator and run **manager.bat up -d**
 
-4. Access the web client at localhost or <docker-machine ip> for Windows users
+5. Access the web client at localhost or <docker-machine ip> for Windows users
 
 Enable HyperV or Install Oracle VirtualBox 
 ------------------------------------------
 
-When installing Docker CE on Windows. You can either use HyperV or Oracle VirtualBox.  These are used to create virtual machines from which your containers will run. 
+When installing Docker CE on Windows,yYou can either use Hyper-V or Oracle VirtualBox.  These are used to create virtual machines from which your containers will run. 
 
 HyperV is an optional feature available on Windows 10 Enterprise, Professional, or Education. If you are using Windows 10 Home or any other windows release, you will need to upgrade or use Oracle VirtualBox.
 
-To enabled HyperV, follow the steps at https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
 
-Download Oracle VirtualBox from https://www.virtualbox.org/
+To manually enable the Hyper-V role:
+
+
+1. Right click on the Windows button and select '**Programs and Features**'.
+
+.. image:: images/programs_and_features.png
+   :scale: 30 %
+
+2. Click **Turn Windows Features on or off**.
+
+.. image:: images/programs_and_features_window.png
+   :scale: 35 %
+
+3. Select **Hyper-V** and click **OK**. 
+
+.. image:: images/enable_role_hyperv.png
+
+When the installation has completed you are prompted to restart your computer
+
+.. image:: images/restart_to_enable_feature.png
+
+Incase hyper-v is not available, download Oracle VirtualBox from https://www.virtualbox.org/
 
 .. Add note on which windows build versions are supported 
 
@@ -47,7 +67,7 @@ Lunix and MacOSX
 
 Follow the steps below to install the application:
 
-1. Download Docker Community Edition for your platform from https://www.docker.com/community-edition#/download. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.
+1. Download Docker Community Edition for your platform from https://www.docker.com/community-edition#/download. 
 
 2. Download the latest release files for BTS-CE from https://github.com/bodastage/bts-ce/releases
 

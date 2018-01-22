@@ -59,26 +59,38 @@
 <h2>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Enable HyperV or install Oracle VirtualBox</li>
-<li>Download and install Docker Community Edition for your platform from <a class="reference external" href="https://www.docker.com/community-edition#/download">https://www.docker.com/community-edition#/download</a>. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.</li>
+<li>Download and install Docker Community Edition rom <a class="reference external" href="https://www.docker.com/community-edition#/download">https://www.docker.com/community-edition#/download</a>.</li>
 <li>Download the latest release files for BTS-CE from <a class="reference external" href="https://github.com/bodastage/bts-ce/releases">https://github.com/bodastage/bts-ce/releases</a></li>
 <li>Unzip the BTS-CE realease files. Open <strong>cmd</strong> as an Administrator and run <strong>manager.bat up -d</strong></li>
-</ol>
-<ol class="arabic simple" start="4">
 <li>Access the web client at localhost or &lt;docker-machine ip&gt; for Windows users</li>
 </ol>
 <div class="section" id="enable-hyperv-or-install-oracle-virtualbox">
 <h3>Enable HyperV or Install Oracle VirtualBox<a class="headerlink" href="#enable-hyperv-or-install-oracle-virtualbox" title="Permalink to this headline">¶</a></h3>
-<p>When installing Docker CE on Windows. You can either use HyperV or Oracle VirtualBox.  These are used to create virtual machines from which your containers will run.</p>
+<p>When installing Docker CE on Windows,yYou can either use Hyper-V or Oracle VirtualBox.  These are used to create virtual machines from which your containers will run.</p>
 <p>HyperV is an optional feature available on Windows 10 Enterprise, Professional, or Education. If you are using Windows 10 Home or any other windows release, you will need to upgrade or use Oracle VirtualBox.</p>
-<p>To enabled HyperV, follow the steps at <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v</a></p>
-<p>Download Oracle VirtualBox from <a class="reference external" href="https://www.virtualbox.org/">https://www.virtualbox.org/</a></p>
+<p>To manually enable the Hyper-V role:</p>
+<ol class="arabic simple">
+<li>Right click on the Windows button and select ‘<strong>Programs and Features</strong>’.</li>
+</ol>
+<a class="reference internal image-reference" href="_images/programs_and_features.png"><img alt="_images/programs_and_features.png" src="_images/programs_and_features.png" style="width: 212.4px; height: 481.5px;" /></a>
+<ol class="arabic simple" start="2">
+<li>Click <strong>Turn Windows Features on or off</strong>.</li>
+</ol>
+<a class="reference internal image-reference" href="_images/programs_and_features_window.png"><img alt="_images/programs_and_features_window.png" src="_images/programs_and_features_window.png" style="width: 394.45px; height: 225.4px;" /></a>
+<ol class="arabic simple" start="3">
+<li>Select <strong>Hyper-V</strong> and click <strong>OK</strong>.</li>
+</ol>
+<img alt="_images/enable_role_hyperv.png" src="_images/enable_role_hyperv.png" />
+<p>When the installation has completed you are prompted to restart your computer</p>
+<img alt="_images/restart_to_enable_feature.png" src="_images/restart_to_enable_feature.png" />
+<p>Incase hyper-v is not available, download Oracle VirtualBox from <a class="reference external" href="https://www.virtualbox.org/">https://www.virtualbox.org/</a></p>
 </div>
 </div>
 <div class="section" id="lunix-and-macosx">
 <h2>Lunix and MacOSX<a class="headerlink" href="#lunix-and-macosx" title="Permalink to this headline">¶</a></h2>
 <p>Follow the steps below to install the application:</p>
 <ol class="arabic simple">
-<li>Download Docker Community Edition for your platform from <a class="reference external" href="https://www.docker.com/community-edition#/download">https://www.docker.com/community-edition#/download</a>. Optionally, install Docker Toolbox depending on your Windows OS version for Windows users.</li>
+<li>Download Docker Community Edition for your platform from <a class="reference external" href="https://www.docker.com/community-edition#/download">https://www.docker.com/community-edition#/download</a>.</li>
 <li>Download the latest release files for BTS-CE from <a class="reference external" href="https://github.com/bodastage/bts-ce/releases">https://github.com/bodastage/bts-ce/releases</a></li>
 <li>Unzip the zip file in 2) to your desired location</li>
 <li>Run manage.sh start</li>
@@ -129,6 +141,10 @@
 <li class="toctree-l1"><a class="reference internal" href="integration.html">Integration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api_reference.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Road map</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
 </ul>
 
         </div>
