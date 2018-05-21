@@ -61,6 +61,16 @@ Incase hyper-v is not available, download Oracle VirtualBox from https://www.vir
 
 .. Add note on which windows build versions are supported 
 
+Download and install Docker Community Edition 
+---------------------------------------------
+Get the download from https://www.docker.com/community-edition#/download. 
+
+Download the latest release files for BTS-CE 
+--------------------------------------------
+Download the latest release files from from https://github.com/bodastage/bts-ce/releases.
+
+We recommed that you place the files in **C:/Bodastage/bts-ce** 
+
 
 Lunix and MacOSX
 ================
