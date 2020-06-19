@@ -83,6 +83,10 @@ Follow the steps below to install the application:
 
 3. Unzip the zip file in 2) to your desired location
 
-4. Run manage.sh start
+4. Make bts.sh and create_folders.sh executable
+.. code-block:: sh
+   chmod +x bts.sh create_folders.sh
 
-5. Access the web client at localhost or <docker-machine ip> for Windows users
+5. Run **./bts.sh setup**
+
+6. Access the web client at http:://localhost:8888
